@@ -7,7 +7,7 @@ It combines a biomedical knowledge graph (ICD-10), **graph
 embedding propagation**, and a discriminative-subspace criterion to turn a
 handful of reference terms into a robust, interpretable patient-level score.
 
-This repository contains the complete code for **Strategy 2 ** and a
+This repository contains the complete code for **Strategy 2** and a
 notebook that reproduces the results and ablation studies of
 the thesis.
 
