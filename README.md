@@ -1,11 +1,5 @@
 # Semantic-Modeling
 
-### Graph- and embedding-based asthma detection in Spanish clinical notes
-
-> Strategy 2 of the Master's thesis
-
----
-
 ## Overview
 
 **Semantic-Modeling** detects asthma in clinical narratives by reasoning in the
