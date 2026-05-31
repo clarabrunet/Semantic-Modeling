@@ -61,26 +61,8 @@ pip install -e ".[dev]"
 ## Data
 
 The clinical data used in the thesis are **confidential** and are **not**
-included in this repository — `data/` ships empty. The pipeline expects a few
-precomputed artefacts there; see **[`data/README.md`](data/README.md)** for the
-exact file formats and how to regenerate them from raw text with the scripts in
-`scripts/`.
+included in this repository
 
-| Artefact                  | Description                                     |
-| ------------------------- | ----------------------------------------------- |
-| `dic_diagnostic.csv`      | ICD-10 catalogue (codes + descriptions).        |
-| `emb_icd10_raw.pkl`       | `[CLS]` embeddings of every ICD-10 description. |
-| `word_embeddings_cls.pkl` | Per-patient token embeddings + labels.          |
-| `nhc_mapping.csv`         | Clinical-history-number → dataset-id mapping.   |
-
-## Testing
-
-```bash
-pytest
-```
-
-Tests run on small synthetic arrays and require **neither** the clinical data
-**nor** the transformer model.
 
 ## License
 
