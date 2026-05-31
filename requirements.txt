@@ -1,0 +1,19 @@
+# Core numerical / data stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+
+# Knowledge graph and nearest-neighbour search
+networkx>=3.0
+faiss-cpu>=1.7
+
+# Transformer embeddings (Spanish clinical encoder)
+torch>=2.0
+transformers>=4.30
+
+# Notebook, plotting and progress bars
+matplotlib>=3.6
+seaborn>=0.12
+tqdm>=4.64
+jupyter>=1.0
