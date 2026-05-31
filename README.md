@@ -3,8 +3,8 @@
 
 **Semantic-Modeling** detects asthma in clinical narratives by reasoning in the
 _semantic space_ of bio-bsc-ehr-es model.
-It combines a biomedical knowledge graph (ICD-10), **graph
-embedding propagation**, and a discriminative-subspace criterion to turn a
+It combines a biomedical knowledge graph (ICD-10), graph
+embedding propagation, and a discriminative-subspace criterion to turn a
 handful of reference terms into a robust, interpretable patient-level score.
 
 This repository contains the complete code for **Strategy 2** and a
@@ -57,7 +57,3 @@ The clinical data used in the thesis are **confidential** and are **not**
 included in this repository
 
 
-## License
-
-[MIT](LICENSE) — **source code only**. The clinical data are confidential and
-are not covered by this license.
