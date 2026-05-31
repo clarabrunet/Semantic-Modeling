@@ -1,6 +1,5 @@
 # Semantic-Modeling
 
-## Overview
 
 **Semantic-Modeling** detects asthma in clinical narratives by reasoning in the
 _semantic space_ of bio-bsc-ehr-es model.
